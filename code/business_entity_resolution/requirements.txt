@@ -1,0 +1,18 @@
+# Python 3.14.2 (Windows 11 venv). Versions are the exact ones used for the final submission (pip freeze). Permissive licences.
+polars==1.44.2              # MIT
+pyarrow==25.0.1             # Apache-2.0
+numpy==2.5.3                # BSD-3
+scipy==1.18.1               # BSD-3
+scikit-learn==1.9.1         # BSD-3 (TF-IDF normalisation helpers)
+joblib==1.6.0               # BSD-3
+lightgbm==4.7.0             # MIT (all matching / filter / meta models)
+RapidFuzz==3.14.6           # MIT (string similarity features)
+anyascii==0.3.3             # ISC (transliteration fallback)
+sparse-dot-topn==1.2.0      # Apache-2.0 (sparse top-k cosine blocking)
+xgboost==3.4.1              # Apache-2.0 (imported by train.py; optional backend, default is LightGBM)
+torch==2.14.0               # BSD-3; CUDA build used: 2.14.0+cu126 (pip install torch==2.14.0 --index-url https://download.pytorch.org/whl/cu126)
+transformers==5.17.0        # Apache-2.0 (e5 bi-encoder / cross-encoders)
+tokenizers==0.23.2          # Apache-2.0
+safetensors==0.8.0          # Apache-2.0
+huggingface_hub==1.33.0     # Apache-2.0 (one-time download of intfloat/multilingual-e5-small and -base, MIT)
+tqdm==4.70.1                # MIT
